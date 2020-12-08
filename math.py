@@ -12,11 +12,11 @@ class Math:
 			self.get()
 
 		elif number != "exit":
-			# try:
+			try:
 				self.mains(int(number))
-			# except:
-			# 	print("\nincorrect\n")
-			# 	self.get()
+			except:
+				print("\nincorrect\n")
+				self.get()
 		else:
 			pass
 
